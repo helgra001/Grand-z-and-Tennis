@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Examination Assignment 1">
+        <title>Contacts</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Bootstrap CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Font Awesome for icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-4">
+            <div class="container-xl"> <!-- Utilizing container-xl class for wider navigation -->
+                <a class="navbar-brand" href="index.html"><img src="images/Grandz4.jpg" alt="Logo" height="80"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link h5 mr-3" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link h5 mr-3 dropdown-toggle" href="#" id="navbarDropdownAbout" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                About
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
+                                <a class="nav-link h5 mr-3 ml-2" href="about.html">About us</a>
+                                <a class="nav-link h5 ml-2" href="products.html">Products</a>
+                                <a class="nav-link h5 ml-2" href="contacts.html">Contact</a>
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link h5" href="https://webbkurs.ei.hv.se/~hegr0013/Avancerad%20webbutveckling%20med%20HTML%20och%20CSS/Examination%20assignment%201%20(Revised)/">Main page</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Contact Section -->
+        <section class="contact-section py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mb-6">
+                        <h2 class="word-spacing mb-3"><span class="mr-1">Connect</span> <span class="mr-1">With</span> Us</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="name" class="font-weight-bold">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="font-weight-bold">Message</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                        <div class="row mt-5">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h2>Visit Us</h2>
+                                        <p>123 Tennis Street</p>
+                                        <p>Tennisville, TN 12345</p>
+                                    </div>
+                                    <div class="col-md-6 mb-5">
+                                        <h2>Call Us</h2>
+                                        <p>Phone: +123 456 7890</p>
+                                        <p>Fax: +123 456 7891</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="images/despina-galani-fburL0JbyVo-unsplash.jpg" class="img-fluid rounded" alt="Tennis Racket">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="footer-section bg-light text-center py-5">
+            <div class="container">
+                <ul class="list-inline mb-3">
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+                <p>&copy; 2024 GRAND'Z. All rights reserved.</p>
+            </div>
+        </footer>
+        <!-- Bootstrap JS and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
